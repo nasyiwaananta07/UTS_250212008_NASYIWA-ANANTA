@@ -1,0 +1,79 @@
+:root {
+    --coklat: #4A2710;
+    --oranye: #FF9F1C;
+    --krem: #FFF8EE;
+    --putih: #FFFFFF;
+    --abu: #6B7280;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    color: #333;
+    background-color: var(--putih);
+}
+
+/* Warna Kustom */
+.text-coklat { color: var(--coklat) !important; }
+.text-oranye { color: var(--oranye) !important; }
+.bg-coklat { background-color: var(--coklat) !important; }
+.bg-krem { background-color: var(--krem) !important; }
+.bg-gradient-oranye { background: linear-gradient(90deg, #FF9F1C, #FFB347); }
+.text-white-75 { color: rgba(255,255,255,0.75) !important; }
+
+/* Tombol */
+.btn-coklat {
+    background-color: var(--coklat);
+    color: white;
+    border: none;
+}
+.btn-coklat:hover { background-color: #633316; color: white; }
+
+.btn-outline-coklat {
+    border: 1px solid var(--coklat);
+    color: var(--coklat);
+    background: transparent;
+}
+.btn-outline-coklat:hover { background-color: var(--coklat); color: white; }
+
+.btn-oranye {
+    background-color: var(--oranye);
+    color: white;
+    border: none;
+}
+.btn-oranye:hover { background-color: #e68a00; color: white; }
+
+/* Navigasi */
+.nav-link { color: #333; }
+.nav-link:hover, .nav-link.active { color: var(--oranye); }
+
+/* Hero */
+.speech-bubble {
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+}
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 8px solid transparent;
+    border-top-color: white;
+}
+
+/* Kategori */
+.kategori-img { height: 60px; object-fit: contain; }
+
+/* Diskon */
+.diskon-badge { width: 80px; height: 80px; }
+
+/* Testimoni */
+.testimoni-foto { width: 80px; height: 80px; object-fit: cover; }
+
+/* Footer */
+footer a:hover { color: var(--oranye) !important; }

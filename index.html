@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Roti - Roti Lezat, Setiap Hari</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Kustom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top py-3 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#beranda">
+                <div class="logo-icon"></div>
+                <div>
+                    <h5 class="fw-bold m-0 text-coklat-gelap">TOKO ROTI</h5>
+                    <p class="small m-0 text-muted">Roti Lezat, Setiap Hari</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuUtama">
+                <ul class="navbar-nav mx-auto gap-2">
+                    <li class="nav-item"><a class="nav-link active" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promo">Promo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentang-kami">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                </ul>
+                <button class="btn btn-coklat">
+                    <i class="fa-solid fa-cart-shopping me-1"></i> Keranjang
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero py-5" id="beranda">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="badge bg-krem text-coklat px-3 py-2 rounded-pill">Selamat Datang di Toko Roti</span>
+                    <h1 class="display-4 fw-bold text-oranye mt-2">HELLO BAKERY</h1>
+                    <p class="text-muted my-4">Nikmati berbagai pilihan roti segar setiap hari, dibuat dengan bahan terbaik dan penuh cinta.</p>
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <button class="btn btn-coklat">Pesan Sekarang <i class="fa-solid fa-arrow-right ms-1"></i></button>
+                        <button class="btn btn-outline-coklat">Lihat Produk <i class="fa-solid fa-arrow-right ms-1"></i></button>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-6 col-md-3 text-center">
+                            <i class="fa-solid fa-wheat-awn text-coklat fs-5"></i>
+                            <p class="small m-0">Bahan Pilihan Berkualitas</p>
+                        </div>
+                        <div class="col-6 col-md-3 text-center">
+                            <i class="fa-solid fa-bread-slice text-coklat fs-5"></i>
+                            <p class="small m-0">Dibuat Fresh Setiap Hari</p>
+                        </div>
+                        <div class="col-6 col-md-3 text-center">
+                            <i class="fa-solid fa-shield-check text-coklat fs-5"></i>
+                            <p class="small m-0">Higienis & Terpercaya</p>
+                        </div>
+                        <div class="col-6 col-md-3 text-center">
+                            <i class="fa-solid fa-truck text-coklat fs-5"></i>
+                            <p class="small m-0">Pengiriman Cepat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="images/toko roti.png" alt="Ilustrasi Toko Roti" class="img-fluid">
+                    <div class="speech-bubble">Roti fresh, hari lebih berkesan!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kategori Produk -->
+    <section class="py-5 bg-krem" id="kategori">
+        <div class="container">
+            <h3 class="text-center fw-bold text-coklat mb-5">Kategori Produk</h3>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <img src="images/roti tawar.png" alt="Roti Tawar" class="kategori-img mb-3">
+                        <h5>Roti Tawar</h5>
+                        <p class="text-muted small">Roti lembut untuk segala momen.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <img src="images/roti manis.png" alt="Roti Manis" class="kategori-img mb-3">
+                        <h5>Roti Manis</h5>
+                        <p class="text-muted small">Manis, lembut dan menggugah selera.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <img src="images/roti isi.jpg" alt="Roti Isi" class="kategori-img mb-3">
+                        <h5>Roti Isi</h5>
+                        <p class="text-muted small">Beraneka isian lezat untuk favorit semua.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <img src="images/roti kering.webp" alt="Roti Kering" class="kategori-img mb-3">
+                        <h5>Roti Kering</h5>
+                        <p class="text-muted small">Cemilan renyah untuk teman santai.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Produk Populer -->
+    <section class="py-5" id="produk">
+        <div class="container">
+            <h3 class="text-center fw-bold text-coklat mb-5">Produk Populer</h3>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 col-xl">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/roti coklat.jpeg" alt="Roti Cokelat" class="card-img-top" style="height:200px;object-fit:cover;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1">Roti Cokelat</h6>
+                                <p class="text-oranye fw-bold mb-0">Rp 8.000</p>
+                            </div>
+                            <button class="btn btn-sm btn-oranye" onclick="tambahKeKeranjang('Roti Cokelat',8000)">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/roti keju.jpg" alt="Roti Keju" class="card-img-top" style="height:200px;object-fit:cover;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1">Roti Keju</h6>
+                                <p class="text-oranye fw-bold mb-0">Rp 9.000</p>
+                            </div>
+                            <button class="btn btn-sm btn-oranye" onclick="tambahKeKeranjang('Roti Keju',9000)">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/roti isi cokelat.webp" alt="Roti Cokelat Isi" class="card-img-top" style="height:200px;object-fit:cover;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1">Roti Cokelat Isi</h6>
+                                <p class="text-oranye fw-bold mb-0">Rp 10.000</p>
+                            </div>
+                            <button class="btn btn-sm btn-oranye" onclick="tambahKeKeranjang('Roti Cokelat Isi',10000)">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/roti sosis.jpg" alt="Roti Sosis" class="card-img-top" style="height:200px;object-fit:cover;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1">Roti Sosis</h6>
+                                <p class="text-oranye fw-bold mb-0">Rp 11.000</p>
+                            </div>
+                            <button class="btn btn-sm btn-oranye" onclick="tambahKeKeranjang('Roti Sosis',11000)">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/croissant.jpg" alt="Croissant" class="card-img-top" style="height:200px;object-fit:cover;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="mb-1">Croissant</h6>
+                                <p class="text-oranye fw-bold mb-0">Rp 12.000</p>
+                            </div>
+                            <button class="btn btn-sm btn-oranye" onclick="tambahKeKeranjang('Croissant',12000)">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Keunggulan Kami -->
+    <section class="py-5 bg-krem" id="keunggulan">
+        <div class="container">
+            <h3 class="text-center fw-bold text-coklat mb-5">Keunggulan Kami</h3>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <i class="fa-solid fa-wheat-awn text-oranye fs-2 mb-2"></i>
+                        <h5>Bahan Berkualitas</h5>
+                        <p class="text-muted small">Hanya menggunakan bahan terbaik.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <i class="fa-solid fa-chef-hat text-oranye fs-2 mb-2"></i>
+                        <h5>Dibuat Fresh</h5>
+                        <p class="text-muted small">Diproduksi setiap hari tanpa pengawet.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <i class="fa-solid fa-thumbs-up text-oranye fs-2 mb-2"></i>
+                        <h5>Rasa Terjamin</h5>
+                        <p class="text-muted small">Cocok untuk semua kalangan.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <i class="fa-solid fa-truck text-oranye fs-2 mb-2"></i>
+                        <h5>Pengiriman Cepat</h5>
+                        <p class="text-muted small">Pesanan sampai dengan aman.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg">
+                    <div class="card h-100 border-0 bg-white p-4 text-center">
+                        <i class="fa-solid fa-heart text-oranye fs-2 mb-2"></i>
+                        <h5>Pelayanan Ramah</h5>
+                        <p class="text-muted small">Kepuasan pelanggan adalah prioritas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Promo -->
+    <section class="py-5" id="promo">
+        <div class="container">
+            <div class="card border-0 bg-gradient-oranye p-4 p-md-5">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-4">
+                        <img src="images/roti basket.jpg" alt="Roti Promo" class="img-fluid">
+                    </div>
+                    <div class="col-md-5">
+                        <h3 class="text-white fw-bold">Diskon Spesial</h3>
+                        <p class="text-white fw-medium">Untuk Pembelian Pertama!</p>
+                        <p class="text-white-75">Dapatkan diskon 20% untuk semua produk.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="diskon-badge rounded-circle bg-white text-oranye d-flex flex-column align-items-center justify-content-center mx-auto mb-3">
+                            <span class="small">DISKON</span>
+                            <span class="fw-bold">20%</span>
+                        </div>
+                        <button class="btn btn-coklat">Belanja Sekarang <i class="fa-solid fa-arrow-right ms-1"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimoni -->
+    <section class="py-5" id="testimoni">
+        <div class="container">
+            <h3 class="text-center fw-bold text-coklat mb-5">Apa Kata Mereka?</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow-sm p-4 p-md-5">
+                        <div class="text-center">
+                            <img src="images/foto profil.jpg" alt="Dinda" class="testimoni-foto rounded-circle mb-3">
+                            <div class="bintang text-oranye mb-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="fst-italic">"Rotinya lembut, rasanya enak dan selalu fresh setiap hari. Pelayanan juga ramah, recommended!"</p>
+                            <p class="fw-bold m-0">— Dinda, Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-coklat text-white py-5" id="kontak">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="d-flex align-items-center gap-2"> TOKO ROTI</h4>
+                    <p class="text-white-75">Roti lezat untuk setiap momen spesial Anda.</p>
+                    <div class="ikon-sosial d-flex gap-3 mt-3">
+                        <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5>Menu</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#beranda" class="text-white-75 text-decoration-none">Beranda</a></li>
+                        <li><a href="#produk" class="text-white-75 text-decoration-none">Produk</a></li>
+                        <li><a href="#promo" class="text-white-75 text-decoration-none">Promo</a></li>
+                        <li><a href="#tentang-kami" class="text-white-75 text-decoration-none">Tentang Kami</a></li>
+                        <li><a href="#kontak" class="text-white-75 text-decoration-none">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5>Bantuan</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-75 text-decoration-none">Cara Pemesanan</a></li>
+                        <li><a href="#" class="text-white-75 text-decoration-none">Pengiriman</a></li>
+                        <li><a href="#" class="text-white-75 text-decoration-none">Pembayaran</a></li>
+                        <li><a href="#" class="text-white-75 text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5>Kontak Kami</h5>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center gap-2"><i class="fa-solid fa-phone"></i> 0812-3456-7890</li>
+                        <li class="d-flex align-items-center gap-2"><i class="fa-solid fa-envelope"></i> info@tokoroti.com</li>
+                        <li class="d-flex align-items-center gap-2"><i class="fa-solid fa-map-marker-alt"></i> Jl. Roti Enak No. 10, Jakarta</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-4 mt-4 border-top border-white-25">
+                <p class="text-white-75 small m-0">© 2026 Toko Roti. Semua Hak Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS + JS Kustom -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
